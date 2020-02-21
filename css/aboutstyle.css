@@ -1,0 +1,145 @@
+body{
+    background-color: white;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+
+}
+
+img{
+    display: block;
+    margin: 10px;
+    width: auto;
+    height: 300px;;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+h1{
+    font-size: 30px;
+    text-align: center;
+    color: black;
+    padding: 10px;
+
+}
+p{
+    align-self: center;
+    padding: 10px;
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+    color: black;
+
+}
+
+.about_school_text{
+    /* background-color: #DBDBDB; */
+    padding: 30px;
+
+    align-self: center;
+}
+
+
+.nav_links{
+  background-color: white;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-direction: row;
+  padding: 10px;
+
+  list-style: none;
+}
+
+.nav_links p{
+    color: #4169E1;
+    flex: 0 1 100%;
+    text-align: center;
+    padding: 10px;
+    font-size: 30px;
+    font-family: monospace;
+
+}
+
+
+
+.nav_item a{
+  color: black;
+  text-decoration: none;
+  padding: 10px;
+}
+
+.nav_item a:hover, a:focus{
+  color: #50C7C7;
+  text-decoration: underline;
+  -webkit-text-decoration-style: dotted;
+          text-decoration-style: dotted;
+}
+
+.skip{
+  background: white;
+  left: 0;
+  padding: 6px;
+  -webkit-transition: top 1s ease-out;
+  transition: top 1s ease-out;
+  z-index: 1;
+  position: absolute;
+  margin-top: -40px;
+}
+
+.currentlink a{
+    color: #4169E1;
+}
+
+
+/* control height not width */
+@media screen and (min-width: 800px){
+    .nav_links{
+        justify-content: flex-end;
+        flex-wrap: nowrap;
+        font-size: 20px;
+    }
+
+    h1{
+        font-size: 55px;
+    }
+
+
+    .nav_links p{
+        flex: auto;
+        font-size: 35px;
+        text-align: left;
+        align-items: flex-start;
+    }
+
+    .container{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+        justify-content: center;
+    }
+
+    .about_school_text h1{
+        font-size: 30px;
+    }
+
+
+
+    img{
+        display: block;
+        margin: 10px;
+        width: auto;
+        height: 325px;
+        margin-left: auto;
+        margin-right: auto;
+
+    }
+
+
+}
