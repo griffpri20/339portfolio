@@ -1,0 +1,86 @@
+/* NAV CODE  */
+.nav_links{
+  background-color: #2440A8;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-direction: row;
+  padding: 10px;
+
+  list-style: none;
+}
+
+.nav_links p{
+    color: #FFFFFF;
+    flex: 0 1 100%;
+    text-align: center;
+    padding: 10px;
+    font-size: 30px;
+    font-family: monospace;
+
+}
+
+.nav_item a{
+  color: white;
+  text-decoration: none;
+  padding: 10px;
+}
+
+.nav_item a:hover, a:focus{
+  color: #F0F000;
+  text-decoration: underline;
+  -webkit-text-decoration-style: dotted;
+          text-decoration-style: dotted;
+}
+
+.currentlink a{
+    color: #F0F000;
+}
+
+
+
+<h1> Resume </h1>
+    <h2> Education </h2>
+        <p> <b>School:</b> University of Michigan - Ann Arbor </p>
+        <p> <b>Graduation:</b> May 2020 </p>
+        <p> <b>Degree:</b>  Bachelor of Science in Information  (Concentration in Data Analytics) </p>
+        <p> <b>Minor:</b> Business </p>
+    <div class = "work_exp">
+    <h2> Work Experiences </h2>
+        <h3> COMERICA BANK | Auburn Hills, MI Summer 2019</h3>
+            <ul>
+            <li>Leveraged AWS to transform call center audio files into a spreadsheet containing
+            sentiment analysis data to help managers better understand caller-agent
+            dynamics</li>
+            <li>Provided documentation for multiple Amazon Connect contact flows using
+            Microsoft Visio to help non-technical users understand complex code</li>
+            <li>Teamed with 6 others in “hackathon” event to enhance Comerica’s time entry
+            service, placed, and had idea developed as a result</li>
+            <li>Developed Python scripts to automate manual tasks to increase efficiency</li>
+            </ul>
+
+        <h3> HEALTH ALLIANCE PLAN | Southfield, MI Summer 2018</h3>
+            <ul>
+            <li>Researched and generated a prototype chatbot using Microsoft Azure to
+            demonstrate to directors how its capabilities can boost company efficiency</li>
+            <li>Assisted a small team in advising the Care Management department on
+            developing a useful dashboard to help improve the data reporting process</li>
+            <li>Self-learned fundamentals of the SQL programming language to assist co-workers
+            with answering business intelligence questions posed by other employees</li>
+            </ul>
+        <h3> PUBLIC FINANCIAL MANAGEMENT | Ann Arbor, MI Summer 2017</h3>
+            <ul>
+            <li>Communicated with 200+ clients and prospects regarding PFM's free debt levy
+            calculation service and coordinated with co-workers to complete calculations in a
+            timely manner, increasing overall efficiency of the service</li>
+            <li>Initiated disclosure filing process by reformatting and updating 400+ disclosure
+            files for school districts on Excel to be more efficiently organized, resulting in a
+            decrease of time spent editing documents before deadlines</li>
+            <li>Produced market analytics reports for prospective clients and summarized data
+            for managing directors, allowing quick and informed decisions to be made</li>
+            </ul>
+    </div>
+    <h2> Projects </h2>
+        <p> <a href= "work.html"> Click here to view my projects </a> </p>
